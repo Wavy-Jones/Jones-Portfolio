@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Davy Jones - Web & Software Developer Portfolio. Showcasing projects in JavaScript, React, Python, and FastAPI.">
+    <title>Davy-Jones | Web Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Davy-Jones</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Davy-Jones</span></h1>
+                <p class="hero-subtitle">Web & Software Developer</p>
+                <p class="hero-description">
+                    Building innovative web solutions with JavaScript, React, Python, and FastAPI. 
+                    Passionate about creating efficient, user-friendly applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Wavy-Jones" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davy-jones-mhangwana-3040a6244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:dj.mhangwana@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an aspiring web and software developer with a passion for creating impactful digital solutions. 
+                        My journey in tech combines hands-on development experience with a creative background in photography 
+                        through my business, 3rdEyeVisualz.
+                    </p>
+                    <p>
+                        Currently, I'm focused on mastering JavaScript fundamentals and React, building real-world projects 
+                        that solve genuine problems. I have experience developing full-stack applications with FastAPI, 
+                        working with databases like PostgreSQL, and creating RESTful APIs.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me practicing competitive programming, contributing to open-source 
+                        projects, or capturing moments through my camera lens.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <ul>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Responsive Design</li>
+                        <li>DOM Manipulation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>FastAPI</li>
+                        <li>PHP</li>
+                        <li>RESTful APIs</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>SQLAlchemy</li>
+                        <li>Database Design</li>
+                        <li>SQL Queries</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Other</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Celery</li>
+                        <li>C#</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="api">API</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: JobConnect SA App -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="assets/images/jobconnect-app.png" alt="JobConnect SA App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Wavy-Jones/JobConnect-SA" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>JobConnect SA - Web App</h3>
+                        <p>
+                            A comprehensive job matching platform for the South African market. Features user authentication, 
+                            job listings, company profiles, application tracking, and advanced search with filters.
+                        </p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>FastAPI</span>
+                            <span>PostgreSQL</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: JobConnect SA Website -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="assets/images/jobconnect-website.png" alt="JobConnect SA Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Wavy-Jones/JobConnect-SA-Website" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>JobConnect SA - Marketing Website</h3>
+                        <p>
+                            Marketing and landing page for JobConnect SA platform. Features responsive design, 
+                            modern UI/UX, call-to-action sections, and information about the platform's services.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: 3rdEyeVisualz -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="assets/images/3rdeyevisualz.png" alt="3rdEyeVisualz Photography">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>3rdEyeVisualz</h3>
+                        <p>
+                            Professional photography portfolio website with integrated contact and booking system. 
+                            Features responsive gallery and API integration for notifications.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Notifications API -->
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <img src="assets/images/notifications-api.png" alt="Notifications API">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Notifications API</h3>
+                        <p>
+                            A robust API supporting email and WhatsApp notifications. Built with FastAPI, SQLAlchemy, 
+                            PostgreSQL, and Celery for asynchronous task processing.
+                        </p>
+                        <div class="project-tags">
+                            <span>FastAPI</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                            <span>Celery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm currently looking for new opportunities and would love to hear from you. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:dj.mhangwana@gmail.com">dj.mhangwana@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Wavy-Jones" target="_blank">github.com/Wavy-Jones</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/davy-jones-mhangwana-3040a6244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/davy-jones-mhangwana-3040a6244</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Davy-Jones Mhangwana" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="dj.mhangwana@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-status" id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Davy Jones. Built with HTML, CSS, and JavaScript.</p>
+            <div class="footer-links">
+                <a href="#home">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
