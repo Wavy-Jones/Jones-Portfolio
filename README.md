@@ -43,14 +43,17 @@ Jones-Portfolio/
 - Update contact information
 - Add your real project links
 
-### 2. Add Project Screenshots
+### 2. Add Your Images
 
-1. Take screenshots of your projects
-2. Save them in `assets/images/` folder
-3. Recommended names:
-   - `jobconnect.png` - JobConnect SA screenshot
-   - `3rdeyevisualz.png` - 3rdEyeVisualz screenshot
-   - `notifications-api.png` - Notifications API screenshot
+1. Add a professional photo as `profile.jpg` in `assets/images/`
+   - This will appear in your About section
+   - Recommended: 600x600px square image
+
+2. Take screenshots of your projects and save in `assets/images/`:
+   - `SkillSync-app.png` - SkillSync SA app
+   - `SkillSync-website.png` - SkillSync SA website
+   - `3rdeyevisualz.png` - 3rdEyeVisualz portfolio
+   - `notifications-api.png` - Notifications API
 
 ### 3. Update Project Details
 
@@ -178,9 +181,10 @@ As you study this code:
 ## 🔄 Next Steps
 
 1. Replace placeholder content with your real information
-2. Add actual project screenshots:
-   - jobconnect-app.png (for the web app)
-   - jobconnect-website.png (for the marketing site)
+2. Add your images to `assets/images/`:
+   - **profile.jpg** - Your professional photo
+   - SkillSync-app.png (for the web app)
+   - SkillSync-website.png (for the marketing site)
    - 3rdeyevisualz.png
    - notifications-api.png
 3. Test on multiple devices

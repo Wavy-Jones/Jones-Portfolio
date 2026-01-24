@@ -4,19 +4,25 @@ Place your project screenshots here:
 
 ## Required Images:
 
-1. **jobconnect-app.png** - Screenshot of JobConnect SA Web App
+1. **profile.jpg** - Your professional photo for the About section
+   - Recommended size: 600x600px (square)
+   - Professional headshot or portrait
+   - Good lighting, clear background
+   - This appears on the left side of the About Me section
+
+2. **SkillSync-app.png** - Screenshot of SkillSync SA Web App
    - Recommended size: 1200x675px (16:9 ratio)
    - Show the main job listings or dashboard
 
-2. **jobconnect-website.png** - Screenshot of JobConnect SA Marketing Website
+3. **SkillSync-website.png** - Screenshot of SkillSync SA Marketing Website
    - Recommended size: 1200x675px (16:9 ratio)
    - Show the landing page or hero section
 
-3. **3rdeyevisualz.png** - Screenshot of 3rdEyeVisualz portfolio
+4. **3rdeyevisualz.png** - Screenshot of 3rdEyeVisualz portfolio
    - Recommended size: 1200x675px (16:9 ratio)
    - Show the gallery or homepage
 
-4. **notifications-api.png** - Diagram or screenshot of Notifications API
+5. **notifications-api.png** - Diagram or screenshot of Notifications API
    - Recommended size: 1200x675px (16:9 ratio)
    - Can be an architecture diagram, API documentation, or Postman screenshot
 
